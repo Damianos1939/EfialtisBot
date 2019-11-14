@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.0\EfialtisBot.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.0\EfialtisBot.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\EfialtisBot.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.0\Discord.Net.Commands.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Discord.Net.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Discord.Net.Rest.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Discord.Net.Webhook.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Discord.Net.WebSocket.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\System.Interactive.Async.dll" />
+    <None Include="obj\Debug\netcoreapp3.0\EfialtisBot.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\EfialtisBot.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\EfialtisBot.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.0\EfialtisBot.csprojAssemblyReference.cache" />
+    <None Include="obj\EfialtisBot.csproj.nuget.cache" />
+    <None Include="obj\EfialtisBot.csproj.nuget.g.props" />
+    <None Include="obj\EfialtisBot.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.1.1" />
+    <PackageReference Include="Discord.Net.Commands" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SystemLang\alerts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
